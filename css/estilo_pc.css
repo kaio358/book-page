@@ -1,0 +1,226 @@
+body{
+    margin: 0;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+main{
+    background: url("../image/capa-materia-1984.png");
+    backdrop-filter:  blur(2px)  brightness(80%) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+
+#barra_superior{
+    display: grid;
+    grid-template-columns: auto auto;
+    color: white;
+    justify-items:center;
+    
+    align-items: center;
+}
+#barra_superior div{
+    font-size: 5vh;
+    justify-self: flex-start;
+    margin-left: 50px ;
+    font-family: Didot;
+}
+#barra_superior nav a{
+    padding: 15px;
+    margin-left: 5px;
+    font-size: 28px;
+   
+
+}
+#barra_superior nav a:hover{
+    color: yellow;
+    border-bottom: 1px solid yellow;
+
+}
+#home{
+    margin-top: 7vh;
+    
+    display: grid;
+    grid-template-columns: auto auto;
+    
+    color: rgb(255, 255, 255);
+    gap: 10px;
+    
+    justify-items: center;
+    text-align: center;
+
+    font-weight: bold;
+    text-shadow: 1px 0.5px 1px black;
+   
+    padding: 15px;
+    
+}
+#texto_apresentacao{
+    padding: 8px;
+    width: 35%;
+    /* justify-self: center; */
+    align-content: center;
+    border-radius: 15px;
+    backdrop-filter: contrast(40%);
+}
+#texto_apresentacao h1{
+    font-size: 10vh;
+    text-shadow: 2px 2px 2px black;
+    color: yellow;
+    font-family: Didot;
+    
+}
+#texto_apresentacao span{
+    font-size: 3vh;
+    color: yellow;
+    text-shadow: 2px 2px 2px black;
+    font-family: Perpetua;
+
+    
+}
+#texto_apresentacao button{
+    margin-top: 15px;
+    font-size: larger;
+    width: 20vw;
+    height: 5vh;
+    font-family: Didot;
+    background-color: rgb(245, 54, 54);
+    color: white;
+    border-radius: 5px;
+    border: 2px solid rgb(42, 41, 41);
+}
+#image_livro{
+    position: relative;
+    top: 90px;
+    right: 60px;
+}
+
+/* tema do livro  */
+
+#icones_tema{
+    margin-top: 50px;
+    padding: 25px;
+    text-align: center;
+}
+#titulo_do_tema h1{
+    font-family: Cambria;
+    font-size: 50px;
+}
+.icon{
+    display: inline-block;
+    padding: 20px;
+    
+}
+.icones{
+    /* border: 1px solid black; */
+    background-color: aliceblue;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+/* #utopia{
+    position: relative;
+    right: 10px;
+} */
+/* sobre o livro  */
+#sobre{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 25px;
+    border-radius: 5px;
+    
+    
+    background-color: aliceblue;
+    /* width: 80%; */
+    margin:10vh auto ;
+    align-items: center;
+    gap: 50px;
+    justify-items: end;
+    
+}
+#sobre div{
+    
+    justify-self: end;
+}
+#sobre div h1{
+    font-family: Cambria;
+    font-size: 40px;
+    
+}
+.sinopse{
+    font-size: large;
+    font-family: garamond;
+}
+
+#frase_marcante{
+    font-size: 30px;
+    font-family: Perpetua;
+    text-align: center;
+    color: rgb(201, 8, 8);
+}
+
+
+/* parte do autor  */
+#autor{
+    
+    padding: 25px;
+}
+#um_pouco{
+    font-family: Perpetua;
+    font-size: 30px;
+    color: rgb(77, 46, 154);
+    
+}
+
+#imagem_autor img{
+    border-radius: 3%;
+    padding: 10px;
+    border: 10px solid rgb(8, 123, 64);
+    border-style: double;
+    
+}
+.descricao_autor{
+    text-align: center;
+
+}
+
+
+#sobre_autor{
+   
+    margin-top: 50px;
+    
+    width: 1000px;
+    margin: auto;
+}
+#sobre_autor h1{
+    font-family: Copperplate;
+    font-size: 30px;
+}
+#sobre_autor p{
+    /* font-family: Arial; */
+    font-family: Copperplate;
+    font-size: larger;
+}
+
+
+
+#rodape{
+    margin-top: 50px;
+    padding: 50px;
+    text-align: center;
+    background:url("../image/olho_1984.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#rodape a{
+    padding: 10px;
+   
+}
